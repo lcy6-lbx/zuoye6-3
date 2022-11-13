@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>作业6-3</title>
+<style>  
+table{  
+    width:300px;  
+    border-collapse:collapse;  
+    }  
+table th{  
+    border:skyblue 2px solid;
+    }  
+</style> 
+</head>
+<body >  
+<script>  
+document.write("<table>");   
+     for (var i=1;i<=9;i++){
+         document.write("<tr>");
+         for (var j=1;j<=i;j++){
+			document.write("<td>")
+            document.write("<th>"+j+"*"+i+"="+j*i+"</th>");
+            document.write("</td>");
+         }
+     }
+document.write("</table>");
+</script>  
+</body>
+</html>
